@@ -15,9 +15,22 @@ p{
     color: #6c757d;
 }
 
-body{
-    background: #000;
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+
+.bg-sec{
+    background: #F8F9FA;
+}
+
+.r-btn{
+    padding: 5px 20px;
+    background-color: #EE8683 !important;
+    color: #fff !important;
+}
+
+
 
 /* Navigation */
 
@@ -46,19 +59,224 @@ nav .navbar-nav li{
 
 nav.r-nav.stickyadd {
     background: #fff !important;
-    padding: 15px 0;
+    padding: 5px 0;
     box-shadow: 0 1px 8px 3px rgba(0,0,0,0.5);
     transition: .5s all ease-in-out;
 }
 
 nav.stickyadd .navbar-brand{
     color:black;
-    font-size: 40px;
+    font-size: 30px;
     transition: .5s all;
 }
 
-nav.stickyadd .navbar-nav li{
-    color:black;
-    font-size: 15px;
-    transition: .5s all;
+nav.stickyadd .navbar-nav .nav-link{
+    color:black !important;
+   
 }
+
+.navbar .hamburger{
+    color: #fff;
+}
+
+nav.stickyadd .hamburger{
+    color:#000;
+}
+
+/* Header */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3,0,1,0.7), rgba(0,0,0,0.6)), url(../images/newbg.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.element{
+    color: #EE8683;
+    font-weight: 700;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 20px;
+}
+
+/* About Us */
+.about li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover{
+    color:#EE8683;
+}
+
+.profile-img{
+    
+    width:80%;
+}
+
+/* Experience Section */
+
+.exp-class .progress{
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: #EE8683 !important;
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin:10px;
+}
+
+/* Service*/
+.card, .card-header{
+    background: #F8F9FA !important;
+}
+
+.card-header{
+    border: none !important;
+}
+
+.services-class .card-header i{
+    font-size: 50px;  
+}
+
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+}
+
+
+/* Contact */
+
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    height: 200px;
+    background-color: #333333;
+}
+
+footer .r-icon a{
+    font-size: 25px;
+    color: #848484;
+    padding:10px;
+    border:1px solid #848484;
+    border-radius: 40%;
+}
+
+footer .r-icon a:hover{
+    border:1px solid #eee;
+    color: #eee;
+    transition: 5s all;
+}
+
+img .cOne-img{
+    height: 120px;
+}
+img .c-img{
+    height:150px;
+    width:100%;
+  }
+  
+  .item{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .item-card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .item-card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .item-card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+  }
+  
+  .card::before, .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
