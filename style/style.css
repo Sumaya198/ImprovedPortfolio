@@ -33,7 +33,6 @@ p{
 
 
 /* Navigation */
-
 nav.r-nav{
     background: transparent;
     padding: 20px 0;
@@ -231,17 +230,13 @@ img .c-img{
     opacity: 0.5;
 }
 
-
-
 /* Contact */
-
 .contact .r-icon{
     font-size: 50px;
     text-align: center;
 }
 
 /* footer */
-
 footer{
     height: 200px;
     background-color: #333333;
