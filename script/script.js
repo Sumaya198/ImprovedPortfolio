@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    $('.filter').click(function(){
+        var name = $(this).attr("data-filter");
+        if(name == "all"){
+          $(".filter").show("2000");
+        }
+        else{
+          $(".filter").not("."+name).hide("2000");
+          $(".filter").filter("."+name).show("2000");
+        }
+    });
+     
 
   
     $(window).on('scroll',function(){
@@ -45,19 +56,5 @@ $child.each(function(){
 });
 
 
-  // owl carousel
-
-  
-    $(".owl-carousel").owlCarousel({
-       loop:true,
-       autoplay:true,
-       autoplayTimeout: 4000,
-       items: 1
-    });
- 
-    $('a').smoothScroll({
-
-      speed:2000,
-    });
 
 });

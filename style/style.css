@@ -130,6 +130,10 @@ header{
     margin-top: 20px;
 }
 
+.btn .download:hover {
+   color: #EE8683 !important; 
+}
+
 /* About Us */
 .about li a{
     color: #000;
@@ -150,75 +154,17 @@ header{
 
 .profile-img{
     
-    width:80%;
+    width:100%;
 }
 
-/* Experience Section */
-
-.exp-class .progress{
-    height: 10px;
-    border-radius: 20px;
-    font-size: 10px;
-}
-
-.progress-bar{
-    background-color: #EE8683 !important;
-}
-
-.exp-class label{
-    font-size: 20px;
-    margin:10px;
-}
-
-/* Service*/
-.card, .card-header{
-    background: #F8F9FA !important;
-}
-
-.card-header{
-    border: none !important;
-}
-
-.services-class .card-header i{
-    font-size: 50px;  
-}
-
-.service-border{
-  height: 2px;
-  width: 40px;
-  margin: 15px auto;
-  background: #e65f78;
+/* Skills */
+.skill-img{
+    width: 100px;
+    height: 100px;
 }
 
 
-/* Contact */
-
-.contact .r-icon{
-    font-size: 50px;
-    text-align: center;
-}
-
-/* footer */
-
-footer{
-    height: 200px;
-    background-color: #333333;
-}
-
-footer .r-icon a{
-    font-size: 25px;
-    color: #848484;
-    padding:10px;
-    border:1px solid #848484;
-    border-radius: 40%;
-}
-
-footer .r-icon a:hover{
-    border:1px solid #eee;
-    color: #eee;
-    transition: 5s all;
-}
-
+/* Portfolio*/
 img .cOne-img{
     height: 120px;
 }
@@ -280,3 +226,46 @@ img .c-img{
   .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
   }
+  .des-text{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+
+
+/* Contact */
+
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    height: 200px;
+    background-color: #333333;
+}
+
+footer .r-icon a{
+    font-size: 25px;
+    color: #848484;
+    padding:10px;
+    border:1px solid #848484;
+    border-radius: 40%;
+}
+
+footer .r-icon a:hover{
+    border:1px solid #eee;
+    color: #eee;
+    transition: 5s all;
+}
+
+
+
+
+
+
+
+
+
