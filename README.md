@@ -4,7 +4,7 @@ A portfolio to show some of my previous work that I have done as a student at th
 
 Deployed link  -> https://sumaya198.github.io/ImprovedPortfolio/.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./images/cover-image.png)
 
 ## Technology Used
 * HTML
