@@ -86,8 +86,8 @@ nav.stickyadd .hamburger{
 header{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3,0,1,0.7), rgba(0,0,0,0.6)), url(../images/newbg.jpg);
-  
+    background-image: linear-gradient(rgba(3,0,1,0.7), rgba(0,0,0,0.6)), url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-691668.jpg&fm=jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
